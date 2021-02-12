@@ -6,6 +6,10 @@ $(document).ready(function() {
 		$('.menu__burger,.menu__menu,.menu__body').toggleClass('active');
 		$('body').toggleClass('lock');
 	});
+	$('.header__list li').click(function(event) {
+		$('.menu__burger,.menu__menu,.menu__body').toggleClass('active');
+		
+	});
 });
 
 // Слайдер
