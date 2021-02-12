@@ -244,7 +244,7 @@ section {
 		background-color: #000;
 		left: 0;
 		width: 30px;
-		height: 3px;
+		height: 2px;
 		top: 9px;
 	}
 	.menu__burger.active span:before {
@@ -464,10 +464,6 @@ h3 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/*border: 1px solid #B5A06A;
-	box-sizing: border-box;
-	width: 7px;
-	height: 7px;*/
 }
 .slick-dots li {
 	list-style: none;
